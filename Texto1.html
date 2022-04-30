@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!--Site do Kellvão AU AU -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>SSite do meu bbzinho</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+      <script src="script.js"></script>
+      <style>::-webkit-scrollbar{
+      width: 10px;
+    }
+      </style>     
+  </head>
+
+<body>
+
+    <nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+      <i class="fas fa-bars"></i>
+      </label>
+      <label class="logo">NOME DA ORG</label>
+
+<!--botões-->
+      <ul>
+        <li><a href="index.html">INÍCIO</a></li>
+        <li><a href="#">NOTÍCIAS</a></li>
+        <li><a href="Texto1.html">TEXTOS</a></li>
+        <li><a href="Aboutus.html">ESCRITORES</a></li>
+        <li><button onclick="BtnModoEscuro()">Toggle dark mode</button></li>
+      </ul>
+<!--fim dos botões-->
+    </nav>
+    <section>
+    </section>  
+
+<!--espaço para propaganda-->
+<div id="top-space"> </div>
+<!--fim do espaço-->
+
+<div id="main">  
+
+<center><h1>lorem Impsum</h1></center>
+
+<br><div id="infoEscritor">
+  <img id="Autor-FOTO" src="assets/imagens/imagem.png" alt="Kellvyn Magela" height="30px" width="30px">
+  <span>Publicado por </span><a href="Index.html"  style="color:#3bb4b4" >Kellvyn Magela</a>    
+</div>
+<center><img src="assets/imagens/imagem1.jpg" alt="Minha Figura"></center>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+  Autem nisi suscipit consectetur exercitationem ex repudiandae molestiae velit iusto, facilis repellendus, 
+  minus odit sit distinctio? At omnis aliquid recusandae voluptatem tempora..</p> 
+</div> 
+<script>
+  function BtnModoEscuro() {
+     var element = document.body;
+     element.classList.toggle("dark-mode");
+  }
+  </script>
+<!--Footer-->
+    <div id="footer"> 
+      <ul>
+        <li><h3>teste</h3></li>
+        <li><a href="index.html">INÍCIO</a></li>
+        <li><a href="#">NOTÍCIAS</a></li>
+        <li><a href="Texto1.html">TEXTOS</a></li>
+        <li><a href="#">SOBRE NÓS</a></li>
+      </ul>
+        </div>
+<!--final do Footer-->
+<script>
+  function BtnModoEscuro() {
+     var element = document.body;
+     element.classList.toggle("BtnModoEscuro");
+  }
+  </script>
+</body>
+</html>
