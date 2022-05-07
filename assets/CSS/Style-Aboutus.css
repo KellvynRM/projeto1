@@ -5,8 +5,12 @@
     list-style: none;
     box-sizing: border-box;
 }
+html, body {
+    min-height: 100%;
+}
 
 body {
+    padding: 0;
     margin: 0;
     font-family: montserrat;
     background-color: #282830;
@@ -206,8 +210,7 @@ html {
     font-family: sans-serif;
     bottom: 0px;
     clear:both;
-   
-}
+  }
 
 .BtnModoEscuro{
     background-color: #282830;

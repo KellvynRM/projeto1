@@ -20,38 +20,43 @@
       
     }
     #Capa{
-        height: 1080px;
-        width: 1920px;
+        height: 100%;
+        width: 100%;
     }
-  
+    img {
+ height: 100%;
+ width: 100%;
+ object-fit: contain;
+ display: block;
+}
+
+
     </style>     
   </head>
 
 <body>
 
-    <nav>
-      
-      <input type="checkbox" id="check">
-      <label for="check" class="checkbtn">
-      <i class="fas fa-bars"></i>
-      </label>
-      <label class="logo">+Politikos</label>
+    <!--NAV BAR-->
+  <nav>
 
-<!--botões-->
-      <ul>
-        <!--desativar a classe do menu para deixalo igual os outros botões [class="active"]-->
-        <li><a href="index.html">INÍCIO</a></li>
-        <li><a href="#">NOTÍCIAS</a></li>
-        <li><a href="Texto1.html">TEXTOS</a></li>
-        <li><a href="Aboutus.html">ESCRITORES</a></li>
-        <li><button onclick="BtnModoEscuro()">Toggle dark mode</button></li>
-<!--fim dos botões-->         
-          
-      </ul>
-    </nav> 
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+      <i class="fas fa-bars"></i>
+    </label>
+    <label class="logo">+Politikos</label>
+
+    <ul>
+      <li><a href="index.html">INÍCIO</a></li>
+      <li><a href="News.html">NOTÍCIAS</a></li>
+      <li><a href="Texto1.html">TEXTOS</a></li>
+      <li><a href="Aboutus.html">ESCRITORES</a></li>
+      <li><button onclick="BtnModoEscuro()">Toggle dark mode</button></li>
+    </ul>
+  </nav>
+  <!--FIM NAV BAR--> 
     <img id="Capa" src="assets/imagens/sustentblog.jpg">
-    
     <!--Footer-->
+    <footer>
     <div id="footer"> 
       <ul>
         <li><h3>teste</h3></li>
@@ -61,6 +66,7 @@
         <li><a href="Aboutus.html">SOBRE NÓS</a></li>
       </ul>
         </div>
+      </footer>
 <!--final do Footer-->
 <script>
   function BtnModoEscuro() {

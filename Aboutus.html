@@ -1,54 +1,55 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>SSite do meu bbzinho</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/CSS/Style-Aboutus.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-    <style>::-webkit-scrollbar {
+
+<head>
+  <meta charset="utf-8">
+  <title>SSite do meu bbzinho</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/CSS/Style-Aboutus.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <style>
+    ::-webkit-scrollbar {
       width: 10px;
     }
+
     ::-webkit-scrollbar-track {
       background: #f1f1f1;
     }
+
     ::-webkit-scrollbar-thumb {
       background: #888;
     }
+
     ::-webkit-scrollbar-thumb:hover {
       background: #555;
-      
+
     }
-     
-    </style>     
-  </head>
+  </style>
+</head>
 
 <body>
+  <!--NAV BAR-->
+  <nav>
 
-    <nav>
-      
-      <input type="checkbox" id="check">
-      <label for="check" class="checkbtn">
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
       <i class="fas fa-bars"></i>
-      </label>
-      <label class="logo">+Politikos</label>
+    </label>
+    <label class="logo">+Politikos</label>
 
-<!--botões-->
-      <ul>
-        <!--desativar a classe do menu para deixalo igual os outros botões [class="active"]-->
-        <li><a href="index.html">INÍCIO</a></li>
-        <li><a href="#">NOTÍCIAS</a></li>
-        <li><a href="Texto1.html">TEXTOS</a></li>
-        <li><a href="Aboutus.html">ESCRITORES</a></li>
-        <li><button onclick="BtnModoEscuro()">Toggle dark mode</button></li>
-<!--fim dos botões-->         
-          
-      </ul>
-    </nav>
-    <div id="top-space"></div>
-<!--Cards da equipe--> 
+    <ul>
+      <li><a href="index.html">INÍCIO</a></li>
+      <li><a href="News.html">NOTÍCIAS</a></li>
+      <li><a href="Texto1.html">TEXTOS</a></li>
+      <li><a href="Aboutus.html">ESCRITORES</a></li>
+      <li><button onclick="BtnModoEscuro()">Toggle dark mode</button></li>
+    </ul>
+  </nav>
+  <!--FIM NAV BAR-->
+  <div id="top-space"></div>
+  <!--Cards da equipe-->
 
-<div class="row">
+  <div class="row">
     <div class="column">
       <div class="card">
         <img src="assets/imagens/Dev1.jpg" alt="Kellvyn Magela" style="width:100%">
@@ -61,7 +62,7 @@
         </div>
       </div>
     </div>
-  
+
     <div class="column">
       <div class="card">
         <img src="assets/imagens/Dev2.png" alt="Heitor Avelino" style="width:100%">
@@ -74,7 +75,7 @@
         </div>
       </div>
     </div>
-    
+
     <div class="column">
       <div class="card">
         <img src="assets/imagens/Dev3.png" alt="Murillo Colombi" style="width:100%">
@@ -101,40 +102,43 @@
       </div>
     </div>
   </div>
-</div>
-<div class="column">
-  <div class="card">
-    <img src="assets/imagens/Dev5.png" alt="Murilo Accica" style="width:100%">
-    <div class="container">
-      <h2>Fernando Hideki</h2>
-      <p class="title">Designer</p>
-      <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-      <p>example@example.com</p>
-      <p><button class="button">Contact</button></p>
+  </div>
+  <div class="column">
+    <div class="card">
+      <img src="assets/imagens/Dev5.png" alt="Murilo Accica" style="width:100%">
+      <div class="container">
+        <h2>Fernando Hideki</h2>
+        <p class="title">Designer</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>example@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
     </div>
   </div>
-</div>
-</div>
+  </div>
 
-<!--Fim dos cards da equipe--> 
-<!--Footer-->
-<footer>
-    <div id="footer"> 
+  <!--Fim dos cards da equipe-->
+  <!--Footer-->
+  <footer>
+    <div id="footer">
       <ul>
-        <li><h3>teste</h3></li>
+        <li>
+          <h3>teste</h3>
+        </li>
         <li><a href="#">INÍCIO</a></li>
         <li><a href="#">NOTÍCIAS</a></li>
         <li><a href="Texto1.html">TEXTOS</a></li>
         <li><a href="#">SOBRE NÓS</a></li>
       </ul>
     </div>
-</footer>   
-<!--final do Footer-->
-<script>
-  function BtnModoEscuro() {
-     var element = document.body;
-     element.classList.toggle("BtnModoEscuro");
-  }
+  </footer>
+  <!--final do Footer-->
+  <script>
+    function BtnModoEscuro() {
+      var element = document.body;
+      element.classList.toggle("BtnModoEscuro");
+    }
   </script>
 </body>
+
 </html>

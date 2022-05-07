@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<!--Site do Kellvão AU AU -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>SSite do meu bbzinho</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+      <script src="script.js"></script>
+      <style>::-webkit-scrollbar{
+      width: 10px;
+    }
+/*gambiarra*/
+
+
+.leftcolumn {   
+  margin: auto;
+  width: 75%;
+}
+
+/* Fake image */
+.fakeimg {
+  width: 40%;
+  border-radius: 5px;
+ }
+
+ img {
+ height: 100%;
+ width: 100%;
+ object-fit: contain;
+ border-radius: 5px;
+}
+
+/* Add a card effect for articles */
+.card {
+   padding: 20px;
+   margin-bottom: 20px;
+   border-radius: 5px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+    </style>     
+  </head>
+
+<body>
+
+    <!--NAV BAR-->
+  <nav>
+
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+      <i class="fas fa-bars"></i>
+    </label>
+    <label class="logo">+Politikos</label>
+
+    <ul>
+      <li><a href="index.html">INÍCIO</a></li>
+      <li><a href="News.html">NOTÍCIAS</a></li>
+      <li><a href="Texto1.html">TEXTOS</a></li>
+      <li><a href="Aboutus.html">ESCRITORES</a></li>
+      <li><button onclick="BtnModoEscuro()">Toggle dark mode</button></li>
+    </ul>
+  </nav>
+  <!--FIM NAV BAR-->
+    <section>
+    </section>  
+
+<!--espaço para propaganda-->
+<div id="top-space"> </div>
+<!--fim do espaço-->
+
+<!--CONTEUDO-->
+<div class="row">
+    <div class="leftcolumn">
+      <div class="card">
+        <h2>TITLE HEADING</h2>
+        <h5>Title description, Dec 7, 2017</h5>
+        <div class="fakeimg"><a href="Texto1.html"><img src="assets/imagens/13189.jpg"></a></div>
+        <p>Some text..</p>
+        <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+      </div>
+      <div class="card">
+        <h2>NOME DA NOTICIA</h2>
+        <h5>Titulo, May 7, 2022</h5>
+        <div class="fakeimg"><img src="assets/imagens/img.png"></div>
+        <p>Some text..</p>
+        <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+      </div>
+    </div>
+    </div>
+  </div>
+
+<!--FIM DO CONTEUDO-->
+
+<!--Footer-->
+    <div id="footer"> 
+      <ul>
+        <li><h3>teste</h3></li>
+        <li><a href="index.html">INÍCIO</a></li>
+        <li><a href="News.html">NOTÍCIAS</a></li>
+        <li><a href="Texto1.html">TEXTOS</a></li>
+        <li><a href="Aboutus.html">SOBRE NÓS</a></li>
+      </ul>
+        </div>
+<!--final do Footer-->
+<script>
+  function BtnModoEscuro() {
+     var element = document.body;
+     element.classList.toggle("BtnModoEscuro");
+  }
+  </script>
+</body>
+</html>
