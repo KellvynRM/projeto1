@@ -1,56 +1,62 @@
 <!DOCTYPE html>
 <!--Site do Kellvão AU AU -->
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>SSite do meu bbzinho</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/CSS/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-      <script src="script.js"></script>
-      <style>::-webkit-scrollbar{
+
+<head>
+  <meta charset="utf-8">
+  <title>SSite do meu bbzinho</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/CSS/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <script src="script.js"></script>
+  <style>
+    ::-webkit-scrollbar {
       width: 10px;
     }
-/*gambiarra*/
+
+    /*gambiarra*/
 
 
-.leftcolumn {   
-  margin: auto;
-  width: 75%;
-}
+    .leftcolumn {
+      margin: auto;
+      width: 75%;
+    }
 
-/* Fake image */
-.fakeimg {
-  width: 40%;
-  border-radius: 5px;
- }
+    /* Fake image */
+    .fakeimg {
+      max-width: 100%;
+      max-height: 100%;
+      border-radius: 5px;
+      object-fit: cover;
+    }
 
- img {
- height: 100%;
- width: 100%;
- object-fit: contain;
- border-radius: 5px;
-}
+    img {
+      width: 600px;
+      height: 400px;
+      border-radius: 5px;
+      object-fit: cover;
+      border-radius: 5px;
+    }
 
-/* Add a card effect for articles */
-.card {
-   padding: 20px;
-   margin-bottom: 20px;
-   border-radius: 5px;
-}
+    /* Add a card effect for articles */
+    .card {
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 5px;
+    }
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-    </style>     
-  </head>
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  </style>
+</head>
 
 <body>
 
-    <!--NAV BAR-->
+  <!--NAV BAR-->
   <nav>
 
     <input type="checkbox" id="check">
@@ -62,58 +68,127 @@
     <ul>
       <li><a href="index.html">INÍCIO</a></li>
       <li><a href="News.html">NOTÍCIAS</a></li>
-      <li><a href="Texto1.html">TEXTOS</a></li>
       <li><a href="Aboutus.html">ESCRITORES</a></li>
       <li><button onclick="BtnModoEscuro()">Toggle dark mode</button></li>
     </ul>
   </nav>
   <!--FIM NAV BAR-->
-    <section>
-    </section>  
+  <section>
+  </section>
 
-<!--espaço para propaganda-->
-<div id="top-space"> </div>
-<!--fim do espaço-->
+  <!--espaço para propaganda-->
+  <div id="top-space"> </div>
+  <!--fim do espaço-->
 
-<!--CONTEUDO-->
-<div class="row">
+  <!--CONTEUDO-->
+  <div class="row">
     <div class="leftcolumn">
       <div class="card">
-        <h2>TITLE HEADING</h2>
+        <h2>Produção de Lixo</h2>
         <h5>Title description, Dec 7, 2017</h5>
-        <div class="fakeimg"><a href="Texto1.html"><img src="assets/imagens/13189.jpg"></a></div>
+        <div class="fakeimg"><a href="Texto1.html"><img src="assets/imagens/lixo.jpg"></a></div>
         <p>Some text..</p>
-        <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+        <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+          ullamco.</p>
       </div>
       <div class="card">
-        <h2>NOME DA NOTICIA</h2>
+        <h2>Impactos Negativos</h2>
         <h5>Titulo, May 7, 2022</h5>
-        <div class="fakeimg"><img src="assets/imagens/img.png"></div>
+        <div class="fakeimg"><a href="Texto2.html"><img src="assets/imagens/negativo.png"></a></div>
         <p>Some text..</p>
-        <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+        <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+          ullamco.</p>
+      </div>
+      <div class="card">
+        <h2>Aterros Sanitários e Lixões</h2>
+        <h5>Title description, Dec 7, 2017</h5>
+        <div class="fakeimg"><a href="Texto3.html"><img src="assets/imagens/aterro.jpg"></a></div>
+        <p>Some text..</p>
+        <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+          ullamco.</p>
+      </div>
+      <div class="card">
+        <h2>Repensar</h2>
+        <h5>Title description, Dec 7, 2017</h5>
+        <div class="fakeimg"><a href="Texto4.html"><img src="assets/imagens/repensar.jpg"></a></div>
+        <p>Some text..</p>
+        <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+          ullamco.</p>
+      </div>
+      <div class="card">
+        <h2>Recusar</h2>
+        <h5>Title description, Dec 7, 2017</h5>
+        <div class="fakeimg"><a href="Texto5.html"><img src="assets/imagens/não.jpg"></a></div>
+        <p>Some text..</p>
+        <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+          ullamco.</p>
+      </div>
+      <div class="card">
+        <h2>Reduzir</h2>
+        <h5>Title description, Dec 7, 2017</h5>
+        <div class="fakeimg"><a href="Texto6.html"><img src="assets/imagens/Reduzir.jpg"></a></div>
+        <p>Some text..</p>
+        <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+          ullamco.</p>
+      </div>
+      <div class="card">
+        <h2>Reutilizar e Reciclar</h2>
+        <h5>Title description, Dec 7, 2017</h5>
+        <div class="fakeimg"><a href="Texto7.html"><img src="assets/imagens/Reutilizar e Reciclar.jpg"></a></div>
+        <p>Some text..</p>
+        <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+          ullamco.</p>
+      </div>
+      <div class="card">
+        <h2>Dicas para população para reduzir o lixo</h2>
+        <h5>Title description, Dec 7, 2017</h5>
+        <div class="fakeimg"><a href="Texto8.html"><img src="assets/imagens/dicas.jpg"></a></div>
+        <p>Some text..</p>
+        <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+          ullamco.</p>
+      </div>
+      <div class="card">
+        <h2>Iniciativas do governo</h2>
+        <h5>Title description, Dec 7, 2017</h5>
+        <div class="fakeimg"><a href="Texto9.html"><img src="assets/imagens/gov.jpg"></a></div>
+        <p>Some text..</p>
+        <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+          ullamco.</p>
       </div>
     </div>
-    </div>
+  </div>
   </div>
 
-<!--FIM DO CONTEUDO-->
+  <!--FIM DO CONTEUDO-->
 
-<!--Footer-->
-    <div id="footer"> 
-      <ul>
-        <li><h3>teste</h3></li>
-        <li><a href="index.html">INÍCIO</a></li>
-        <li><a href="News.html">NOTÍCIAS</a></li>
-        <li><a href="Texto1.html">TEXTOS</a></li>
-        <li><a href="Aboutus.html">SOBRE NÓS</a></li>
-      </ul>
-        </div>
-<!--final do Footer-->
-<script>
-  function BtnModoEscuro() {
-     var element = document.body;
-     element.classList.toggle("BtnModoEscuro");
-  }
+  <!--Footer-->
+  <div id="footer">
+    <ul>
+      <li>
+        <h3>teste</h3>
+      </li>
+      <li><a href="index.html">INÍCIO</a></li>
+      <li><a href="News.html">NOTÍCIAS</a></li>
+      <li><a href="Texto1.html">TEXTOS</a></li>
+      <li><a href="Aboutus.html">SOBRE NÓS</a></li>
+    </ul>
+  </div>
+  <!--final do Footer-->
+  <script>
+    function BtnModoEscuro() {
+      var element = document.body;
+      element.classList.toggle("BtnModoEscuro");
+    }
   </script>
 </body>
+
 </html>

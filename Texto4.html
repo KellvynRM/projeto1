@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<!--Site do Kellvão AU AU -->
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>SSite do meu bbzinho</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/CSS/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <script src="script.js"></script>
+  <style>
+    ::-webkit-scrollbar {
+      width: 10px;
+    }
+
+    img {
+      max-width: 600px;
+      max-height: 400px;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!--NAV BAR-->
+  <nav>
+
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+      <i class="fas fa-bars"></i>
+    </label>
+    <label class="logo">+Politikos</label>
+
+    <ul>
+      <li><a href="index.html">INÍCIO</a></li>
+      <li><a href="News.html">NOTÍCIAS</a></li>
+      <li><a href="Aboutus.html">ESCRITORES</a></li>
+      <li><button onclick="BtnModoEscuro()">Toggle dark mode</button></li>
+    </ul>
+  </nav>
+  <!--FIM NAV BAR-->
+  <section>
+  </section>
+
+  <!--espaço para propaganda-->
+  <div id="top-space"> </div>
+  <!--fim do espaço-->
+
+  <div id="main">
+
+    <center>
+      <h1>Repensar</h1>
+    </center>
+
+    <br>
+    <div id="infoEscritor">
+      <img id="Autor-FOTO" src="assets/imagens/imagem.png" alt="Kellvyn Magela" height="30px" width="30px">
+      <span>Publicado por </span><a href="Index.html" style="color:#3bb4b4">Kellvyn Magela</a>
+    </div>
+    <div class="outdoor">
+      <center><img src="assets/imagens/repensar.jpg" alt="Minha Figura"></center>
+    </div>
+    <p>São Paulo é uma das maiores cidades do Brasil, abriga diversas pessoas, gostos e culturas. Por sua vez, onde
+      existem grandes quantidades de pessoas, também existem grandes quantidades de lixos produzidos diariamente, sendo
+      mais de 27 mil toneladas por dia. Com essas informações, podemos observar que métodos e projetos para a redução de
+      lixo precisam ser discutidos e colocados em prática urgente, afim de melhorar a qualidade de vida e evitar
+      estragos futuros em relação ao meio ambiente.
+      Existem algumas ações importantes criadas para instruir pessoas de como melhorar a sustentabilidade em relação ao
+      tratamento do lixo, uma delas é denominada como 5R’s. Esse nome tem como significado as cinco ações que devem ser
+      feitas para ajudar na redução de consumo de produtos e descarte de lixos: Repensar, recusar, reduzir, reutilizar e
+      reciclar. </p>
+    <p><b>Repensar:</b> Pode valer tanto na hora de comprar algum produto, quanto na hora do descarte deste produto,
+      portanto, é
+      essencial pensar e repensar nos benefícios ou malefícios que poderá causar. O consumo exagerado é uma das
+      principais causas da depravação do meio ambiente. Importante sempre pensar antes de uma compra, qual o ciclo de
+      vida desse produto e de que forma ele pode impactar o mundo.
+    </p>
+  </div>
+  <script>
+    function BtnModoEscuro() {
+      var element = document.body;
+      element.classList.toggle("dark-mode");
+    }
+  </script>
+  <!--Footer-->
+  <div id="footer">
+    <ul>
+      <li>
+        <h3>teste</h3>
+      </li>
+      <li><a href="index.html">INÍCIO</a></li>
+      <li><a href="#">NOTÍCIAS</a></li>
+      <li><a href="Texto1.html">TEXTOS</a></li>
+      <li><a href="#">SOBRE NÓS</a></li>
+    </ul>
+  </div>
+  <!--final do Footer-->
+  <script>
+    function BtnModoEscuro() {
+      var element = document.body;
+      element.classList.toggle("BtnModoEscuro");
+    }
+  </script>
+</body>
+
+</html>

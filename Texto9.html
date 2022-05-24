@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<!--Site do Kellvão AU AU -->
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>SSite do meu bbzinho</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/CSS/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <script src="script.js"></script>
+  <style>
+    ::-webkit-scrollbar {
+      width: 10px;
+    }
+
+    img {
+      max-width: 600px;
+      max-height: 400px;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!--NAV BAR-->
+  <nav>
+
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+      <i class="fas fa-bars"></i>
+    </label>
+    <label class="logo">+Politikos</label>
+
+    <ul>
+      <li><a href="index.html">INÍCIO</a></li>
+      <li><a href="News.html">NOTÍCIAS</a></li>
+      <li><a href="Aboutus.html">ESCRITORES</a></li>
+      <li><button onclick="BtnModoEscuro()">Toggle dark mode</button></li>
+    </ul>
+  </nav>
+  <!--FIM NAV BAR-->
+  <section>
+  </section>
+
+  <!--espaço para propaganda-->
+  <div id="top-space"> </div>
+  <!--fim do espaço-->
+
+  <div id="main">
+
+    <center>
+      <h1>Iniciativas do governo</h1>
+    </center>
+
+    <br>
+    <div id="infoEscritor">
+      <img id="Autor-FOTO" src="assets/imagens/imagem.png" alt="Kellvyn Magela" height="30px" width="30px">
+      <span>Publicado por </span><a href="Index.html" style="color:#3bb4b4">Kellvyn Magela</a>
+    </div>
+    <div class="outdoor">
+      <center><img src="assets/imagens/gov.jpg" alt="Minha Figura"></center>
+    </div>
+    <p>A redução do lixo é responsabilidade não só da sociedade, mas principalmente do Governo de São Paulo. É de
+      extrema importância que o Governo estude estratégias, formas e campanhas de como realizar a redução de lixo, além
+      de instruir e incentivar a população a seguir colaborando com as iniciativas de sustentabilidade.
+      Alguns projetos de campanhas já foram realizados pelo Governo de São Paulo, e todos eles entregaram resultados
+      importantes e significantes para a cidade. Um desses projetos foi realizado pelo ex-governador João Dória, que
+      promoveu em 2019 um projeto de sustentabilidade, cujo objetivo era reduzir a produção de lixo nos prédios
+      públicos, além de fazer campanhas de coletas seletivas. O projeto teve início na sede do Governo do Estado, sendo
+      que a primeira etapa tinha como objetivo reduzir 4 mil copos e mil colheres descartáveis usados nos restaurantes
+      da sede.
+      Campanhas como essa são extremamente importantes, pois quando se trata de um Órgão Público, as informações de
+      campanha e projetos são espalhadas rapidamente na sociedade, aumentando então o poder de ação em prol da redução
+      da produção de lixo e meio ambiente.
+      Uma outra iniciativa é o movimento “Recicla Sampa”, um projeto criado pelas concessionárias de resíduos da cidade:
+      são elas o Loga e Ecourbis, com o apoio da SP Regula, uma instituição da Prefeitura de São Paulo.
+      Esse movimento tem como objetivo reduzir aproximadamente 500 mil toneladas de lixo que são levados aos lixões e
+      aterros sanitários em um tempo de quatro anos. O projeto inspira que cada cidadão deve fazer sua contribuição,
+      explicando de forma simples o papel que a sociedade possui nessa causa, e deixando claro que cada um é responsável
+      pelo lixo que gera e da separação correta dos resíduos.
+      O Recicla Sampa é todo baseado nos cinco R’s – repensar, recusar, reduzir, reutilizar e reciclar, ou seja,
+      comportamentos que a população deve ter a respeito do lixo que produzem. Atitudes e reflexões que contribuem para
+      uma mudança, para que assim se torne uma cidade mais sustentável.
+      O atual Governador de São Paulo é Rodrigo Garcia, cujo o qual assumiu o cargo de João Dória. Rodrigo Garcia ainda
+      não realizou nenhum projeto ou campanha de sustentabilidade, mas a esperança de muitos é que iniciativas e
+      campanhas sejam realizadas o quanto antes.
+      É notável que tanto a o estado quanto a cidade de São Paulo precisa de melhoras em relação ao lixo, é preciso de
+      algumas ações do Governo para ajudar nessa situação, como:
+    <ol>
+      <li>• Implementação de lixeiras orgânicas e recicláveis em pontos de ônibus, esquinas e calçadas.</li>
+      <li>• Incentivar a população consumidora a ter preferência à produtos que sejam reutilizáveis, recicláveis e que
+        colaborem com o meio ambiente.</li>
+      <li>• Campanhas públicas com objetivo de reduzir a produção de lixo residencial, envolvendo prêmios aos
+        participantes.</li>
+      <li>• Investimento em Instituições de tratamento de lixo, órgãos de limpeza de rua, entre outros.</li>
+    </ol>
+    </p>
+  </div>
+  <script>
+    function BtnModoEscuro() {
+      var element = document.body;
+      element.classList.toggle("dark-mode");
+    }
+  </script>
+  <!--Footer-->
+  <div id="footer">
+    <ul>
+      <li>
+        <h3>teste</h3>
+      </li>
+      <li><a href="index.html">INÍCIO</a></li>
+      <li><a href="#">NOTÍCIAS</a></li>
+      <li><a href="Texto1.html">TEXTOS</a></li>
+      <li><a href="#">SOBRE NÓS</a></li>
+    </ul>
+  </div>
+  <!--final do Footer-->
+  <script>
+    function BtnModoEscuro() {
+      var element = document.body;
+      element.classList.toggle("BtnModoEscuro");
+    }
+  </script>
+</body>
+
+</html>

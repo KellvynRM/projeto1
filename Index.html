@@ -1,78 +1,88 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>SSite do meu bbzinho</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/CSS/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-    <style>::-webkit-scrollbar {
+
+<head>
+  <meta charset="utf-8">
+  <title>SSite do meu bbzinho</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/CSS/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <style>
+    ::-webkit-scrollbar {
       width: 10px;
     }
+
     ::-webkit-scrollbar-track {
       background: #f1f1f1;
     }
+
     ::-webkit-scrollbar-thumb {
       background: #888;
     }
+
     ::-webkit-scrollbar-thumb:hover {
       background: #555;
-      
     }
-    #Capa{
-        height: 100%;
-        width: 100%;
+
+    #Capa {
+      height: 100%;
+      width: 100%;
+      position: fixed;
     }
-    img {
- height: 100%;
- width: 100%;
- object-fit: contain;
- display: block;
-}
 
 
-    </style>     
-  </head>
+    #footer0 {
+      width: 100%;
+      height: 100px;
+      background-color: #1E1E26;
+      padding: 20px 45%;
+      font-size: 20px;
+      color: white;
+      font-family: sans-serif;
+      bottom: 0px;
+      clear: both;
+      position: fixed;
+    }
+  </style>
+</head>
 
 <body>
 
-    <!--NAV BAR-->
+  <!--NAV BAR-->
   <nav>
 
     <input type="checkbox" id="check">
     <label for="check" class="checkbtn">
       <i class="fas fa-bars"></i>
     </label>
-    <label class="logo">+Politikos</label>
+    <label class="logo">ReciclaSP</label>
 
     <ul>
       <li><a href="index.html">INÍCIO</a></li>
-      <li><a href="News.html">NOTÍCIAS</a></li>
-      <li><a href="Texto1.html">TEXTOS</a></li>
-      <li><a href="Aboutus.html">ESCRITORES</a></li>
+      <li><a href="News.html">Artigos</a></li>
       <li><button onclick="BtnModoEscuro()">Toggle dark mode</button></li>
     </ul>
   </nav>
-  <!--FIM NAV BAR--> 
-    <img id="Capa" src="assets/imagens/sustentblog.jpg">
-    <!--Footer-->
-    <footer>
-    <div id="footer"> 
+  <!--FIM NAV BAR-->
+  <img id="Capa" src="assets/imagens/capa.jpg">
+  <!--Footer-->
+  <footer>
+    <div id="footer0">
       <ul>
-        <li><h3>teste</h3></li>
-        <li><a href="#">INÍCIO</a></li>
-        <li><a href="#">NOTÍCIAS</a></li>
-        <li><a href="Texto1.html">TEXTOS</a></li>
-        <li><a href="Aboutus.html">SOBRE NÓS</a></li>
+        <li>
+          <h3>Sobre</h3>
+        </li>
+        <li><a href="Aboutus.html">Quem somos</a></li>
       </ul>
-        </div>
-      </footer>
-<!--final do Footer-->
-<script>
-  function BtnModoEscuro() {
-     var element = document.body;
-     element.classList.toggle("BtnModoEscuro");
-  }
+    </div>
+  </footer>
+  <!--final do Footer-->
+  <script>
+    function BtnModoEscuro() {
+      var element = document.body;
+      element.classList.toggle("BtnModoEscuro");
+    }
   </script>
 </body>
+
 </html>
